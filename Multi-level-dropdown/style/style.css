@@ -1,0 +1,89 @@
+charset "utf-8"
+*
+{
+   margin:0px;
+   padding:0px;
+}
+
+body
+{
+	-webkit-background: url(../images/car.jpg) no-repeat;
+    -o-background: url(../images/car.jpg) no-repeat;
+    -moz-background: url(../images/car.jpg) no-repeat ;
+    background: url(../images/car.jpg) no-repeat ;
+    background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+ul 
+{
+	list-style: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+ul li
+{
+	width:300px;
+	height:60px;
+	background:url(../images/backg.jpg);
+    margin-top: 1px;
+	line-height: 60px;
+	border-radius: 15px;
+	position: relative;
+}
+
+
+ul li a
+{
+	text-decoration: none;
+	color: white;
+	display:block;
+	border-radius: 15px;
+}
+
+ul li a:hover
+{
+   background:url(../images/backhover.jpg);
+   
+   	
+} 
+
+#nav ul ul
+{
+	position:absolute;
+	display: none; 
+}
+
+#nav ul li:hover >ul 
+{
+	display: block;
+	
+}
+
+#nav ul ul ul 
+{
+	 
+	margin-left: 301px;
+	top:0px;
+	
+	  
+}
+/*
+@media only screen and (max-width:600px)
+{
+	#nav ul li {
+		width:100px;
+	}
+	
+	#nav ul ul ul 
+	{
+		margin-left:100px;
+	}
+}
+
+*/
